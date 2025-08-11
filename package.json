@@ -4,11 +4,14 @@
   "description": "load for natours",
   "main": "index.js",
   "scripts": {
-    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+    "compile-sass": "sass sass/main.scss css/style.css -w"
   },
   "author": "henry ambele",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^9.0.0"
+    "node-sass": ""
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
   }
 }
